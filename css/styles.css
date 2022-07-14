@@ -1,0 +1,14 @@
+:root {
+	--acent-color: #2196f3;
+	--logo-black-color: #000000;
+	--h-text-color: #212121;
+	--p-text-color: #757575;
+	--white-text-color: #ffffff;
+	--foot-tel-color: rgba(255, 255, 255, 0.6);
+	--hero-btn-hoover: #188ce8;
+}
+
+body {
+	font-family: "Roboto";
+	font-style: normal;
+}
