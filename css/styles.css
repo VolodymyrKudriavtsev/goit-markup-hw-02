@@ -17,7 +17,7 @@ body {
 .top-logo,
 .bottom-logo {
 	color: var(--logo-black-color);
-	font-family: "Raleway";
+	font-family: Raleway, sans-serif;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
@@ -36,19 +36,16 @@ body {
 
 .top-mail,
 .top-tel {
+	color: var(--p-text-color);
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
-	color: var(--p-text-color);
 	text-decoration: none;
 }
 
 .top-mail:hover,
-.top-mail:focus {
-	color: var(--acent-color);
-}
-
+.top-mail:focus,
 .top-tel:hover,
 .top-tel:focus {
 	color: var(--acent-color);
@@ -66,10 +63,41 @@ body {
 	list-style: none;
 }
 
+/* ------- MAIN ------- */
+
 /* ------- FOOTER ------- */
 .bottom {
 	background-color: rgb(181, 178, 178);
 }
 .bottom-logo {
 	color: var(--white-text-color);
+}
+
+.bottom-adr,
+.bottom-mail,
+.bottom-tel {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.03em;
+	text-decoration: none;
+}
+
+.bottom-adr {
+	color: var(--white-text-color);
+}
+
+.bottom-mail,
+.bottom-tel {
+	color: var(--foot-tel-color);
+}
+
+.bottom-adr:hover,
+.bottom-adr:focus,
+.bottom-mail:hover,
+.bottom-mail:focus,
+.bottom-tel:hover,
+.bottom-tel:focus {
+	color: var(--acent-color);
 }
