@@ -92,7 +92,7 @@ body {
 .hero-btn {
   color: var(--white-text-color);
   background-color: var(--acent-color);
-  font-family: Roboto, sans-serif;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -152,7 +152,7 @@ body {
 .filter-btn {
   color: var(--h-text-color);
   background-color: var(--bgc-btn);
-  font-family: Roboto, sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
