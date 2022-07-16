@@ -38,21 +38,26 @@ body {
 
 .top-nav-link {
   color: var(--h-text-color);
-  text-decoration: none;
-}
-.top-nav-link:hover,
-.top-nav-link:focus {
-  color: var(--acent-color);
 }
 
 .top-mail,
 .top-tel {
   color: var(--p-text-color);
+}
+
+.top-nav-link,
+.top-mail,
+.top-tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+
+.top-nav-link:hover,
+.top-nav-link:focus {
+  color: var(--acent-color);
 }
 
 .top-mail:hover,
@@ -136,17 +141,18 @@ body {
 .card-item {
   background-color: var(--bgc-white);
 }
-.worker-title,
-.worker-text {
+
+.worker-title {
   color: var(--h-text-color);
   font-weight: 500;
+}
+
+.worker-title,
+.worker-text {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-}
-.worker-text {
-  color: var(--p-text-color);
 }
 
 .filter-btn {
